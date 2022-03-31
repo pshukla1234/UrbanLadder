@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-31T04:14:00Z" name="UrbanLadder" finished-at="2022-03-31T04:15:10Z" duration-ms="70013">
+    <groups>
+    </groups>
+    <test started-at="2022-03-31T04:14:00Z" name="UrbanLadder_smokeTests_Chrome" finished-at="2022-03-31T04:14:36Z" duration-ms="35225">
+      <class name="testsuite.UrbanTestingSmoke">
+        <test-method signature="smokeTesting()[pri:0, instance:testsuite.UrbanTestingSmoke@696da30b]" started-at="2022-03-31T04:14:04Z" name="smokeTesting" finished-at="2022-03-31T04:14:09Z" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTesting -->
+      </class> <!-- testsuite.UrbanTestingSmoke -->
+      <class name="base.Base">
+        <test-method is-config="true" signature="Initialize(java.lang.String)[pri:0, instance:base.Base@5fd4f8f5]" started-at="2022-03-31T04:14:00Z" name="Initialize" finished-at="2022-03-31T04:14:04Z" duration-ms="3860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.Base@5fd4f8f5]" started-at="2022-03-31T04:14:34Z" name="tearDown" finished-at="2022-03-31T04:14:36Z" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- base.Base -->
+      <class name="testsuite.UrbanTestingRegression">
+        <test-method signature="regressionTesting()[pri:0, instance:testsuite.UrbanTestingRegression@4e7912d8]" started-at="2022-03-31T04:14:09Z" name="regressionTesting" finished-at="2022-03-31T04:14:34Z" duration-ms="25910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTesting -->
+      </class> <!-- testsuite.UrbanTestingRegression -->
+    </test> <!-- UrbanLadder_smokeTests_Chrome -->
+    <test started-at="2022-03-31T04:14:36Z" name="UrbanLadder_smokeTests_Edge" finished-at="2022-03-31T04:15:10Z" duration-ms="34765">
+      <class name="testsuite.UrbanTestingSmoke">
+        <test-method signature="smokeTesting()[pri:0, instance:testsuite.UrbanTestingSmoke@20f5239f]" started-at="2022-03-31T04:14:38Z" name="smokeTesting" finished-at="2022-03-31T04:14:42Z" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTesting -->
+      </class> <!-- testsuite.UrbanTestingSmoke -->
+      <class name="base.Base">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:base.Base@193f604a]" started-at="2022-03-31T04:14:00Z" name="setUP" finished-at="2022-03-31T04:14:00Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="Initialize(java.lang.String)[pri:0, instance:base.Base@193f604a]" started-at="2022-03-31T04:14:36Z" name="Initialize" finished-at="2022-03-31T04:14:38Z" duration-ms="2708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.Base@193f604a]" started-at="2022-03-31T04:15:10Z" name="tearDown" finished-at="2022-03-31T04:15:10Z" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- base.Base -->
+      <class name="testsuite.UrbanTestingRegression">
+        <test-method signature="regressionTesting()[pri:0, instance:testsuite.UrbanTestingRegression@57af006c]" started-at="2022-03-31T04:14:42Z" name="regressionTesting" finished-at="2022-03-31T04:15:10Z" duration-ms="28287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTesting -->
+      </class> <!-- testsuite.UrbanTestingRegression -->
+    </test> <!-- UrbanLadder_smokeTests_Edge -->
+  </suite> <!-- UrbanLadder -->
+</testng-results>

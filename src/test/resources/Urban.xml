@@ -1,0 +1,18 @@
+<suite name="UrbanLadder" preserve-order="true" >
+  <test name="UrbanLadder_smokeTests_Chrome" >
+   <parameter name="browser" value="chrome"/>
+    <classes>
+	  <class name="base.Base"/>
+	  <class name="testsuite.UrbanTestingSmoke"/>	
+      <class name="testsuite.UrbanTestingRegression"/>	
+	</classes>
+  </test> 
+  <test name="UrbanLadder_smokeTests_Edge">
+    <parameter name="browser" value="edge"/>
+	 <classes>
+	   <class name="base.Base"/>
+	   <class name="testsuite.UrbanTestingSmoke"/>	
+       <class name="testsuite.UrbanTestingRegression" />
+	 </classes>
+  </test> 
+</suite>
